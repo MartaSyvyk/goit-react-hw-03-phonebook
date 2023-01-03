@@ -1,0 +1,42 @@
+p {
+  display: inline;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-right: 30px;
+}
+
+input {
+  display: block;
+  font-size: 24px;
+  height: 30px;
+  width: 300px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  outline: 1px rgba(0, 0, 0, 0.205) solid;
+}
+
+button {
+  height: 40px;
+  width: 150px;
+  font-size: 24px;
+  background-color: white;
+  border-radius: 4px;
+  border: 1px rgba(0, 0, 0, 0.205) solid;
+  box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.59);
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0px 1px 6px 1px rgba(0, 0, 0, 0.59);
+  }
+
+.form {
+  padding: 20px;
+  outline: 1px black solid;
+  margin-bottom: 50px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+}
